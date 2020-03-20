@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36559" started-at="2020-03-20T16:25:53 IST" finished-at="2020-03-20T16:26:29 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="36559" started-at="2020-03-20T16:25:53 IST" finished-at="2020-03-20T16:26:29 IST">
+      <class name="com.application.testcases.GmailLogin">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="startReport" is-config="true" duration-ms="129" started-at="2020-03-20T16:25:53 IST" finished-at="2020-03-20T16:25:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="setData" is-config="true" duration-ms="0" started-at="2020-03-20T16:25:53 IST" finished-at="2020-03-20T16:25:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="setUpClass" is-config="true" duration-ms="111" started-at="2020-03-20T16:25:53 IST" finished-at="2020-03-20T16:25:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="report" is-config="true" duration-ms="9" started-at="2020-03-20T16:25:53 IST" finished-at="2020-03-20T16:25:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="startApp" is-config="true" duration-ms="6061" started-at="2020-03-20T16:25:54 IST" finished-at="2020-03-20T16:26:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="TC002(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="TC002" duration-ms="8286" started-at="2020-03-20T16:26:00 IST" data-provider="fetchData" finished-at="2020-03-20T16:26:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vidhyananthsn59@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ananth@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002 -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="closeApp" is-config="true" duration-ms="4321" started-at="2020-03-20T16:26:08 IST" finished-at="2020-03-20T16:26:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="startApp" is-config="true" duration-ms="5159" started-at="2020-03-20T16:26:12 IST" finished-at="2020-03-20T16:26:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="TC002(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="TC002" duration-ms="7559" started-at="2020-03-20T16:26:17 IST" data-provider="fetchData" finished-at="2020-03-20T16:26:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vidhyananthsn59@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ananth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002 -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="closeApp" is-config="true" duration-ms="4326" started-at="2020-03-20T16:26:25 IST" finished-at="2020-03-20T16:26:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2020-03-20T16:26:29 IST" finished-at="2020-03-20T16:26:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.application.testcases.GmailLogin@68bbe345]" name="stopReport" is-config="true" duration-ms="228" started-at="2020-03-20T16:26:29 IST" finished-at="2020-03-20T16:26:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.application.testcases.GmailLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
